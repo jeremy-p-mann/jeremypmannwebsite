@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'optima';
+  src: url("fonts/unicode.optima.woff");
+}
+
+.foo {
+  font-family: "optima";
+}
