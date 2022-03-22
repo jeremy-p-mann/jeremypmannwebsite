@@ -38,7 +38,7 @@ p {
   max-width: 600px;
 }
 
-@media (max-width: 43em) {
+@media (max-width: 600px) {
   body {
     padding: 5vh;
   }
