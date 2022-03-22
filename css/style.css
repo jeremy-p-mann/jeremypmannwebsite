@@ -1,6 +1,6 @@
 @font-face {
   font-family: "optima";
-  src: url("fonts/unicode.optima.woff");
+  src: url("../fonts/unicode.optima.woff");
 }
 
 body {
@@ -36,4 +36,30 @@ p {
   border: 1px solid #000000;
   padding: 4rem;
   max-width: 600px;
+}
+
+@media (max-width: 43em) {
+  body {
+    padding: 5vh;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  img {
+    height: 200px;
+    margin: 2rem 0;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .container {
+    height: 75vh;
+    padding: 2rem;
+  }
 }
