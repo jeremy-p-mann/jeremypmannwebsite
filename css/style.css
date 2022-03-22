@@ -1,8 +1,39 @@
 @font-face {
-  font-family: 'optima';
+  font-family: "optima";
   src: url("fonts/unicode.optima.woff");
 }
 
-.foo {
+body {
   font-family: "optima";
+  background: #eefaff;
+  text-align: center;
+  display: flex;
+  padding-top: 5vh;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 36pt;
+  font-weight: 400;
+  margin: 0;
+}
+
+img {
+  height: 400px;
+  margin: 2rem 0;
+}
+
+a:visited {
+  color: #000000;
+}
+
+p {
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+.container {
+  border: 1px solid #000000;
+  padding: 4rem;
+  max-width: 600px;
 }
