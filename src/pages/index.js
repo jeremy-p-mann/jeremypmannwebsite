@@ -4,6 +4,8 @@ import FontStyles from "../fontStyles";
 import AboutMe from "../components/about";
 import HeadshotImage from "../components/headshot";
 import NameTitle from "../components/name_title";
+import { Helmet } from 'react-helmet';
+
 
 
 const Body = styled.body`
@@ -27,6 +29,11 @@ const Container = styled.div`
 `;
 const IndexPage = () => {
   return (
+    <html>
+    <Helmet>
+        <title>Jeremy Mann</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </Helmet>
     <Body>
       <Container>
         <NameTitle />
@@ -34,6 +41,7 @@ const IndexPage = () => {
         <AboutMe />
       </Container>
     </Body>
+    </html>
   );
 };
 
