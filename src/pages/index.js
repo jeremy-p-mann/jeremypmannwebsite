@@ -31,7 +31,7 @@ const IndexPage = () => {
   return (
     <html>
     <Helmet>
-        <title>Jeremy Mann</title>
+        <title>Jeremy P. Mann</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </Helmet>
     <Body>
