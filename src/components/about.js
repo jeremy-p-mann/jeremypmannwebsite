@@ -32,7 +32,7 @@ const AboutMe = () => {
       <Paragraph>
         I'm a <Url url={linkedin} description={linkedin_description} />{" "}
         specializing in healthcare. Previously, I was a mathematician and a
-        teacher. In my free time, I enjoy 
+        teacher. In my free time, I enjoy{" "}
         <Url url={github} description={github_description} /> and thinking about
         longevity. Sometimes, I{" "}
         <Url url={youtube} description={youtube_description} />.
