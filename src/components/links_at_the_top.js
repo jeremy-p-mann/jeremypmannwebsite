@@ -5,6 +5,7 @@ import { Link } from "gatsby";
 const NavLinks = styled.ul`
   display: flex;
   list-style: none;
+  justify-content: space-around;
   padding-left: 0;
   text-align: center;
 `;
@@ -20,6 +21,9 @@ const NavLink = styled(Link)`
 const NavWindow = () => {
   return (
     <NavLinks>
+      <NavLinkItem>
+        <NavLink to="/"> About</NavLink>
+      </NavLinkItem>
       <NavLinkItem>
         <NavLink to="/artwork"> Projects</NavLink>
       </NavLinkItem>
