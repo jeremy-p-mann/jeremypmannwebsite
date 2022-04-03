@@ -2,6 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import NavWindow from "../components/links_at_the_top";
+import H1 from "../components/h1";
 
 const Body = styled.body`
   margin: 0px;
@@ -33,6 +34,7 @@ const Layout = ({ title, children }) => {
       <Body>
         <NavWindow />
         <Container>
+          <H1>{title}</H1>
           {children}
         </Container>
       </Body>

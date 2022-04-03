@@ -11,12 +11,11 @@ import { Helmet } from "react-helmet";
 const IndexPage = () => {
   const content = (
     <div>
-      <NameTitle />
       <HeadshotImage />
       <AboutMe />
     </div>
   );
-  const title = "Jeremy P. Mann";
+  const title = "Jeremy P. Mann, Ph.D";
   return <Layout title={title}>{content}</Layout>;
 };
 

@@ -1,13 +1,16 @@
-import * as React from 'react'
-import Layout from '../components/layout'
+import * as React from "react";
+import Layout from "../components/layout";
+import Paragraph from "../components/paragraph";
 
 const Artwork = () => {
-    const title = 'Artwork'
-    return (
-        <Layout title={title}>
-            Welcome to Jeremy's Artwork
-        </Layout >
-    )
-}
+  const title = "Artwork";
+  const content = (
+        <Paragraph>
+            Talk about your Artwork. Make sure to say more than you need to
+            in order for it to fill up all the space.
+        </Paragraph>
+    );
+  return <Layout title={title}>{content}</Layout>;
+};
 
-export default Artwork
+export default Artwork;

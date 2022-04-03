@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import Paragraph from '../components/paragraph'
 
 const Anchor = styled.a`
   color: #000000;
@@ -11,15 +12,6 @@ const Url = ({ url, description }) => {
     </Anchor>
   );
 };
-const Paragraph = styled.p`
-  font-size: 18pt;
-  font-weight: 400;
-  @media (max-width: 600px) {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 0;
-  }
-`;
 const AboutMe = () => {
   const linkedin = "https://www.linkedin.com/in/jeremypmann/";
   const linkedin_description = "data scientist";
