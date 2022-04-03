@@ -3,12 +3,15 @@ import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import NavWindow from "../components/links_at_the_top";
 
+const Page = styled.html`
+   background: #eefaff;
+`
 const Body = styled.body`
   font-family: "optima";
-  /* background: #eefaff; */
   text-align: center;
-  display: flex;
+  display: grid;
   padding-top: 5vh;
+  vertical-align: middle;
   justify-content: center;
   @media (max-width: 600px) {
     padding: 5vh;
@@ -24,7 +27,7 @@ const Container = styled.div`
 `;
 const Layout = ({ title, children }) => {
   return (
-    <html>
+    <Page>
       <Helmet>
         <title>Jeremy P. Mann</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,7 +39,7 @@ const Layout = ({ title, children }) => {
           {children}
         </Container>
       </Body>
-    </html>
+    </Page>
   );
 };
 

@@ -4,13 +4,13 @@ import FontStyles from "../fontStyles";
 import AboutMe from "../components/about";
 import HeadshotImage from "../components/headshot";
 import NameTitle from "../components/name_title";
-import { Helmet } from 'react-helmet';
-
-
+import NavWindow from "../components/links_at_the_top";
+import { Helmet } from "react-helmet";
 
 const Body = styled.body`
+  margin: 0;
   font-family: "optima";
-  /* background: #eefaff; */
+  background: #eefaff;
   text-align: center;
   display: flex;
   padding-top: 5vh;
@@ -29,18 +29,18 @@ const Container = styled.div`
 `;
 const IndexPage = () => {
   return (
-    <html>
-    <Helmet>
+    <html lang="en">
+      <Helmet>
         <title>Jeremy P. Mann</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    </Helmet>
-    <Body>
-      <Container>
-        <NameTitle />
-        <HeadshotImage />
-        <AboutMe />
-      </Container>
-    </Body>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Helmet>
+      <Body>
+        <Container>
+          <NameTitle />
+          <HeadshotImage />
+          <AboutMe />
+        </Container>
+      </Body>
     </html>
   );
 };

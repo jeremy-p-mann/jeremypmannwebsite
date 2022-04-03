@@ -1,13 +1,14 @@
+
 import * as React from 'react'
 import Layout from '../components/layout'
 
-const Pde = () => {
-    const title = 'PDE = Personal Development Environment'
+const Writing = () => {
+    const title = 'Writing'
     return (
         <Layout title={title}>
-            Talk about your PDE.
+            Welcome to Jeremy's Writing
         </Layout >
     )
 }
 
-export default Pde
+export default Writing
