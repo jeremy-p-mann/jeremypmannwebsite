@@ -25,7 +25,7 @@ const NavWindow = () => {
         <NavLink to="/"> About</NavLink>
       </NavLinkItem>
       <NavLinkItem>
-        <NavLink to="/artwork"> Projects</NavLink>
+        <NavLink to="/artwork"> Artwork</NavLink>
       </NavLinkItem>
       <NavLinkItem>
         <NavLink to="/writing"> Writing</NavLink>
