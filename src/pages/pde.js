@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Paragraph from "../components/paragraph";
 
 const Pde = () => {
-  const title = "Personal Development Environment";
+  const title = "PDE";
   const content = (
         <Paragraph>
             Talk about your dotfiles. Make sure to say more than you need to
