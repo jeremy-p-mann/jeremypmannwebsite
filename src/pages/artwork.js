@@ -5,11 +5,26 @@ import Paragraph from "../components/paragraph";
 const Artwork = () => {
   const title = "Artwork";
   const content = (
-        <Paragraph>
-            Talk about your Artwork. Make sure to say more than you need to
-            in order for it to fill up all the space.
-        </Paragraph>
-    );
+    <div>
+      <Paragraph>I also enjoy making art.</Paragraph>
+      <Paragraph>
+        Below is a relic from a period in my life when I loved all things
+        simplicial, even it’s more degenerate facets.
+      </Paragraph>
+      <Paragraph>
+        The standard representation of chains on the 2 simplex, for those who
+        prefer to think of sequences of linear maps in terms of feedforward
+        networks. The fundamental technique of algebraic topology consists of
+        encoding geometry in terms of linear maps.
+      </Paragraph>
+      <Paragraph>
+        The standard representation of chains on the 2 simplex, for those who
+        prefer to think of sequences of linear maps in terms of feedforward
+        networks. The fundamental technique of algebraic topology consists of
+        encoding geometry in terms of linear maps.
+      </Paragraph>
+    </div>
+  );
   return <Layout title={title}>{content}</Layout>;
 };
 
