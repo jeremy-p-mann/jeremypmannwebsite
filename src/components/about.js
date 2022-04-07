@@ -1,17 +1,8 @@
 import * as React from "react";
 import styled from "styled-components";
 import Paragraph from '../components/paragraph'
+import Url from '../components/url'
 
-const Anchor = styled.a`
-  color: #000000;
-`;
-const Url = ({ url, description }) => {
-  return (
-    <Anchor href={url} target="new">
-      {description}
-    </Anchor>
-  );
-};
 const AboutMe = () => {
   const linkedin = "https://www.linkedin.com/in/jeremypmann/";
   const linkedin_description = "data scientist";
