@@ -10,10 +10,10 @@ const Body = styled.body`
   /* background: #eefaff; */
   text-align: center;
   display: grid;
-  padding-top: 5vh;
+  padding-top: 2vh;
   justify-content: center;
   @media (max-width: 600px) {
-    padding: 5vh;
+    padding: 1vh;
   }
 `;
 const Container = styled.div`
@@ -21,7 +21,6 @@ const Container = styled.div`
   padding: 4rem;
   max-width: 600px;
   @media (max-width: 600px) {
-    height: 75vh;
     padding: 2rem;
 `;
 const Layout = ({ title, children }) => {
