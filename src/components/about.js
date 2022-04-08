@@ -6,7 +6,7 @@ import Url from '../components/url'
 const AboutMe = () => {
   const linkedin = "https://www.linkedin.com/in/jeremypmann/";
   const linkedin_description = "data scientist";
-  const github = "https://www.linkedin.com/in/jeremypmann/";
+  const github = "https://www.github.com/jmann277";
   const github_description = "creating open source software";
   const youtube = "https://www.youtube.com/user/jmann277";
   const youtube_description = "make videos";
