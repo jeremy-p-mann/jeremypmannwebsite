@@ -1,15 +1,8 @@
 import * as React from "react";
 import headshot from "../images/headshot.png";
-import styled from "styled-components";
+import Image from "../components/image"
 
-const Image = styled.img`
-  height: 400px;
-  margin: 1rem 0;
-  @media (max-width: 600px) {
-    height: 200px;
-    margin: 1rem 0;
-  }
-`;
+
 const HeadshotImage = () => {
   return (
     <div>
