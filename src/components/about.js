@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
-import Paragraph from '../components/paragraph'
-import Url from '../components/url'
+import Paragraph from "../components/paragraph";
+import Url from "../components/url";
 
 const AboutMe = () => {
   const linkedin = "https://www.linkedin.com/in/jeremypmann/";
