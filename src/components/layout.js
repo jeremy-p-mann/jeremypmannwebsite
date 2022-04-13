@@ -11,6 +11,7 @@ const Body = styled.body`
   text-align: center;
   display: grid;
   padding-top: 2vh;
+  padding-bottom: 4vh;
   justify-content: center;
   @media (max-width: 600px) {
     padding: 1vh;
