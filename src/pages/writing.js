@@ -20,8 +20,27 @@ const Writing = () => {
     "https://scholar.rose-hulman.edu/cgi/viewcontent.cgi?article=1074&context=rhumj";
   const thesis_description =
     "Equilateral Dimension of Riemannian Manifolds with Bounded Curvature.";
+  const first_onc_paper =
+    "https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.16_suppl.e18701";
+  const first_onc_paper_descriptin =
+    "here";
+  const second_onc_paper =
+    "https://www.valueinhealthjournal.com/article/S1098-3015(22)01752-1/fulltext";
+  const second_onc_paper_descriptin =
+    "here";
   const content = (
     <main>
+      <Paragraph>
+        I've co-authored a couple of abstracts on using real world data to improve the diversity and power
+                of clinical trials, see:{" "}
+        <Url url={first_onc_paper} description={first_onc_paper_descriptin} />
+                {" "}and{" "}
+        <Url url={second_onc_paper} description={second_onc_paper_descriptin} />.
+      </Paragraph>
+      <Paragraph>
+        I wrote a “not-suitable-for-publication” outline on using{" "}
+        <Url url={alexander_duality} description={ad_description} />.
+      </Paragraph>
       <Paragraph>
         I wrote a “not-suitable-for-publication” outline on using{" "}
         <Url url={alexander_duality} description={ad_description} />.
