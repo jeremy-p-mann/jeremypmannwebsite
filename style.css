@@ -1,6 +1,6 @@
 @font-face {
   font-family: "optima";
-  src: url("../fonts/unicode.optima.woff");
+  src: url("src/fonts/unicode.optima.woff");
 }
 
 body {
@@ -8,8 +8,10 @@ body {
   background: #eefaff;
   text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 5vh;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 h1 {
@@ -65,5 +67,42 @@ p {
   .container {
     height: 75vh;
     padding: 2rem;
+  }
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 1rem;
+  padding-left: 0;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+header,
+nav {
+  width: 100%;
+}
+
+nav {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    font-size: 20px;
+    font-weight: 400;
   }
 }
