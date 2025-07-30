@@ -8,8 +8,10 @@ body {
   background: #eefaff;
   text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 5vh;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 h1 {
